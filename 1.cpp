@@ -2,6 +2,6 @@
 using namespace std;
 int main(){
     int age =20;
-cout<<"Age:"<<age;
+cout<< Sizeof(age)<<endl;
 return 0;
 }
