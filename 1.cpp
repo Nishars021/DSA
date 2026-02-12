@@ -2,6 +2,6 @@
 using namespace std;
 int main(){
     int age =20;
-cout<<age;
+cout<<"Age:"<<age;
 return 0;
 }
