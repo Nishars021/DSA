@@ -2,6 +2,7 @@
 using namespace std;
 int main(){
     int age =20;
-cout<< Sizeof(age)<<endl;
+    char name='N';
+cout<< sizeof(name)<<endl;
 return 0;
 }
