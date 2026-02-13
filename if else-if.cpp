@@ -10,6 +10,8 @@ int main(){
         cout<<"Your grade is B\n";
     } else if((marks>=70) && (marks<80)) {
         cout<<"Your grade is C\n";  
+    } else { 
+        cout<<"Your secured a fail grade\n";
     }
     return 0;
 }
