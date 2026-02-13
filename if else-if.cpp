@@ -1,17 +1,15 @@
 #include <iostream>
 using namespace std;
 int main(){
-    float marks;
-    cout<<"Enter your marks:\n";
-    cin>>marks;
-    if (marks>=90){
-        cout<<"Your grade is A\n";
-    } else if((marks>=80) && (marks<90)) {
-        cout<<"Your grade is B\n";
-    } else if((marks>=70) && (marks<80)) {
-        cout<<"Your grade is C\n";  
-    } else { 
-        cout<<"Your secured a fail grade\n";
+    char letter;
+    cout<<"Enter a letter:\n";
+    cin>>letter;
+    if((letter>=65) && (letter<=90)){
+        cout<<"You entered an uppercase letter\n";
+    } else if((letter>=97) && (letter<=122)){
+        cout<<"You entered a lowercase letter\n";
+    } else {
+        cout<<"You did not enter a letter\n";
     }
     return 0;
 }
