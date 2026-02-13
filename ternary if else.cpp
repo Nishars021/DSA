@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 int main(){
-    int a=23;
+    int a;
     cout<<"Enter a number:\n";
     cin>>a;
-    cout<<(a%2==0?"Even":"Odd") <<endl;
+    cout<<(a>=0?"Positive":"Negative") <<endl;
     return 0;
 }
