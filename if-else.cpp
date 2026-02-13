@@ -2,12 +2,12 @@
 using namespace std;
 int main(){
     int a;
-    cout<<"Enter a number:\n";
+    cout<<"Enter your age:\n";
     cin>>a;
-    if (a%2==0){
-        cout<<"Number is Even\n";
+    if (a>=18){
+        cout<<"You are eligible to vote\n";
     } else {
-        cout<<"Number is Odd\n";
+        cout<<"You are not eligible to vote\n";
     }
     return 0;
 }
