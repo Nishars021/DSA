@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    char name='N';
-    int value=name;
-    cout<<"Value : "<<value<<endl;
+    char sum='ni';
+    double b=sum;
+    cout<<"double converted value is : "<<b<<endl;
 }
