@@ -7,6 +7,9 @@ int main(){
     cin>>n;
     for(i=0;i<=n;i++){
         sum=sum+i;
+        if(i==5){
+            break;
+        }
     }
     cout<<"Sum : "<<sum;
     return 0;
