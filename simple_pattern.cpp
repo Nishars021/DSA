@@ -5,5 +5,9 @@ int main(){
     int n;
     cout<<"Enter value : ";
     cin>>n;
-    
+    for(i=0;i<=n;i++)
+    {
+        cout<<"* * * * *"<<endl;
+    }
+    return;
 }
