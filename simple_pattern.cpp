@@ -7,7 +7,7 @@ int main(){
     cin>>n;
     for(i=1;i<=n;i++)
     {
-        cout<<"* * * * *"<<endl;
+        cout<<"*"<<endl;
     }
     return 0;
 }
