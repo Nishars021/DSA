@@ -6,10 +6,10 @@ int main (){
     cout<<"Enter n value : ";
     cin>>n;
     for(int i=1;i<=n;i++){
-        cout<<"* "<<endl;
         for(int j=1;j<=i;j++){
-            cout<<"* ";
+            cout<<j;
         }
+        cout<<endl;
     }
     return 0;
 }
