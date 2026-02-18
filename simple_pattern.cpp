@@ -2,19 +2,17 @@
 using namespace std;
 int main(){
     int i;
-    int n;
     int m;
-    cout<<"Enter value : ";
-    cin>>n;
-    cout<<"Enter value : ";
-    cin>>m;
-    for(i=1;i<=n;i++){
-        {
-            for(i=1;i<=m;i++){
-                cout<<"* ";
-            }
+    // cout<<"Enter value for 'm' : ";
+    // cin>>m;
+    for(int i=4;i>=1;i--){
+      
+        for(int i=3;i>=1;i--){
+            cout<<"* ";
+            // cout<<endl;
         }
         cout<<"* ";
+        cout<<endl;
     }
     return 0;
 }
