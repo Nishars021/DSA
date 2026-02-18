@@ -6,11 +6,13 @@ int main(){
     // cout<<"Enter value for 'm' : ";
     // cin>>m;
     for(int i=4;i>=1;i--){
-        cout<<"* "<<endl;
+      
         for(int i=3;i>=1;i--){
-            cout<<"* "<<endl;
-            
+            cout<<"* ";
+            // cout<<endl;
         }
+        cout<<"* ";
+        cout<<endl;
     }
     return 0;
 }
