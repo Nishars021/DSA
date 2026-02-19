@@ -1,13 +1,16 @@
 #include <iostream>
 using namespace std;
+
 int main (){
-    int i,j;
-    int n;
-    cout<<"Enter n value : ";
-    cin>>n;
-    for(int i=1;i<=n;i++){
-        for(int j=1;j<=n;j++){
-            cout<<j <<" ";
+    // int i;
+    int n=5;
+    // cout<<"Enter n value : ";
+    // cin>>n;
+    for(int i=0;i<n;i++){ //outer loop
+        char ch='A';
+        for(int j=0;j<n;j++){ //inner loop
+            cout<<ch<<" ";
+            ch=ch+1; //65+1=66 -> 'B'
         }
         cout<<endl;
     }
