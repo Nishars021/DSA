@@ -15,7 +15,6 @@ int main(){
     }
     cout<<endl;
    }
-   cout<<"The last number after the pattern : "<<a;
    return 0;
 }
 
