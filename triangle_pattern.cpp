@@ -1,8 +1,7 @@
 #include <iostream>
+using namespace std;
 
-using namespace std
 int main(){
-int i,j;
 int n=3;
 
 for(int i=0;i<n;i++){ //Outer loop
